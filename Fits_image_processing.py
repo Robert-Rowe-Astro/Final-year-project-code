@@ -18,7 +18,7 @@ errors.
 The code creates the neccessary bias and flat images to reduce from the images.
 It then writes the processed image to a new file.
 
-if there is more than one image of the same type the code will align and,
+if there is more than one image of the same type the code will try align and,
 combine them.
 """
 import astroalign as aa
