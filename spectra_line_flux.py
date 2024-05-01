@@ -50,11 +50,11 @@ from numpy import trapz
 
 ###############################################################################
 
-Halpha_vacuum = 6564.614 * u.AA # ref https://classic.sdss.org/dr7/products/spectra/vacwavelength.php
+Halpha_vacuum = 6564.614 * u.AA 
 
-OI_vacuum = 6365.536 * u.AA # REF https://classic.sdss.org/dr6/algorithms/linestable.php
+OI_vacuum = 6365.536 * u.AA 
 
-CaII_k_vacuum = 3933.66 * u.AA # ref (for now) wikipedia frauenhofer liines
+CaII_k_vacuum = 3933.66 * u.AA 
 
 OI = 6300 * u.AA # get ref
 
