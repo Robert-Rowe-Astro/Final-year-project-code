@@ -58,11 +58,10 @@ import math
 
 ###############################################################################
 
-Halpha_vacuum = 6564.614 * u.AA # ref https://classic.sdss.org/dr7/products/spectra/vacwavelength.php
+Halpha_vacuum = 6564.614 * u.AA 
 
-OI_vacuum = 6365.536 * u.AA # REF https://classic.sdss.org/dr6/algorithms/linestable.php
-
-CaII_k_vacuum = 3933.66 * u.AA # ref (for now) wikipedia frauenhofer liines
+OI_vacuum = 6365.536 * u.AA 
+CaII_k_vacuum = 3933.66 * u.AA 
 
 
 #ref carrol ostlie
@@ -193,7 +192,7 @@ Instrument_list = ['UVES','XSH','Xsh','UVES','Xsh']
 
 rad_vel = [1.416323309,27.850689942181,-29.461835387817,-12.126655856364,27.850832009443]
 
-unit_correct = [0,1e-16,1e-16,1e-16,1e-16]
+unit_correct = [0,1e-16,1e-16,1e-16,1e-16] # not needed 
 #******************************************************************************
 # initialise extinction profile
 ext = G23(Rv = 3.1)
